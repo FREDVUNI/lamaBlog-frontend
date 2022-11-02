@@ -6,9 +6,14 @@ import { AuthContext } from "../context/AuthContext"
 const NavBar = () => {
     const { currentUser,logout } = useContext(AuthContext)
     // console.log(currentUser.username)
+    // const [openMenu,setOpenMenu] = useState(false)
      
     return (
+        <>
         <div className="navbar">
+            <div className="navBar__bars">
+                <i className="fas fa-bars"></i>
+            </div>
             <div className="container">
                 <div className="logo">
                     <Link to="/">
@@ -42,6 +47,7 @@ const NavBar = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
