@@ -1,0 +1,116 @@
+@media only screen and (max-width:1024px){
+    .app .container .navbar .container {
+        display: none;
+    }
+    .app .container .home .posts {
+        justify-content:center;
+        align-items:center;
+        padding:30px;
+    }
+    .app .container .home .post .img::after{
+        display:none;
+    }
+    .app .container .home .posts .content h1 {
+        font-size: 30px;
+    }
+    .app .container .home .posts .content p {
+        font-size: 20px;
+    }
+    .app .container .single {
+        padding: 50px;
+        gap: 50px;
+    }
+}
+@media only screen and (max-width:768px){
+    .app .container .navbar .container {
+        display: none;
+    }
+    .app .container .home .posts {
+        margin-top: 50px;
+        display: block;
+        flex-direction: row;
+        gap: 50px;
+        justify-content:center;
+        align-items:center;
+        padding:30px;
+    }
+    .app .container .home .posts .post {
+        display: revert;
+        gap: 100px;
+    }
+    .app .container .home .posts .content h1 {
+        font-size: 20px;
+    }
+    .app .container .home .post .img::after{
+        display:none;
+    }
+    .app .container .home .posts .content button {
+        margin-bottom: 25px;
+    }
+    .app .container .single {
+        padding: 50px;
+        display: block;
+        gap: 50px;
+    }
+    .app .container .single .menu h1 {
+        margin-top:40px;
+        margin-bottom: 50px;
+    }
+    .app .container .single .menu {
+        display: block;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .app .container .link {
+        margin-bottom: 50px;
+    }
+    .app .container .add .menu {
+        padding: 30px 20px;
+    }
+}
+@media only screen and (max-width:600px){
+    .app .container .navbar .container {
+        display: none;
+    }
+    .app .container .home .posts {
+        justify-content:center;
+        align-items:center;
+    }
+     .app .container .single {
+        padding: 50px;
+        display: block;
+        gap: 50px;
+    }
+    .app .container .single .menu h1 {
+        margin-top:40px;
+    }
+    .app .container .single .menu {
+        display: block;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .app .container .single .content h1 {
+        font-size: 18px;
+    }
+    .app .container .single {
+        padding: 20px;
+    }
+    .app .container .single .content p {
+        line-height: 30px;
+    }
+    .app .container .single .menu .post h2 {
+        margin-bottom: 20px;
+    }
+    .app .container .single .menu h1 {
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    .app .container .add {
+        margin-top: 20px;
+        display: block;
+        gap: 20px;
+    }
+    
+}
