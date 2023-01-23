@@ -11,9 +11,9 @@ const NavBar = () => {
     return (
         <>
         <div className="navbar">
-            <div className="navBar__bars">
+            {/* <div className="navBar__bars">
                 <i className="fas fa-bars"></i>
-            </div>
+            </div> */}
             <div className="container">
                 <div className="logo">
                     <Link to="/">
